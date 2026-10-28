@@ -104,9 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
 // Navbar background on scroll
 window.addEventListener('scroll', function() {
     const nav = document.querySelector('.nav');
-    if (window.scrollY > 50) {
-        nav.style.background = 'rgba(10, 10, 15, 0.95)';
+    if (window.scrollY > 40) {
+        nav.style.background = 'radial-gradient(circle at top, rgba(139, 92, 246, 0.22), transparent 70%), rgba(5, 5, 16, 0.9)';
+        nav.style.borderBottom = '1px solid rgba(139, 92, 246, 0.4)';
     } else {
-        nav.style.background = 'rgba(10, 10, 15, 0.8)';
+        nav.style.background = 'radial-gradient(circle at top, rgba(139, 92, 246, 0.18), transparent 70%), rgba(5, 5, 16, 0.72)';
+        nav.style.borderBottom = '1px solid rgba(139, 92, 246, 0.25)';
     }
 });
