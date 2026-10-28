@@ -1,0 +1,21 @@
+QUICK UPDATE GUIDE
+
+1. Add Your Photo
+   - Put your photo as "beverly.jpg" in this folder
+   - If not added, it shows a placeholder
+
+2. Contact Form
+   - Using FormSubmit.co - messages go directly to prinsnics@gmail.com
+   - On first submission, FormSubmit will send you a confirmation email - click it to activate
+   - After activation, all messages will go straight to your Gmail
+
+3. Customize
+   - Update LinkedIn/Instagram links in index.html (search for href="#")
+   - Projects section can be updated with your actual work
+   - Colors in style.css under :root variables
+
+4. View Locally
+   - Open index.html in browser, or run: python -m http.server 8000 then go to localhost:8000
+   - Or just double-click index.html
+
+Done! Everything is set up with your info and email.
